@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Velvet Standard</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      margin: 0;
+      background-color: #0B0B0B;
+      color: #F5E6CC;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4em;
+      margin-bottom: 0.2em;
+      letter-spacing: 1px;
+      color: #D6AF66;
+      text-shadow: 0 0 10px rgba(214,175,102,0.3);
+    }
+
+    h2 {
+      font-weight: 300;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #C9B18C;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-top: 1.5em;
+      color: #DAD0C3;
+    }
+
+    a {
+      margin-top: 2em;
+      padding: 12px 28px;
+      border: 1px solid #D6AF66;
+      border-radius: 40px;
+      color: #D6AF66;
+      text-decoration: none;
+      letter-spacing: 1px;
+      transition: 0.3s;
+      font-weight: 500;
+    }
+
+    a:hover {
+      background-color: #D6AF66;
+      color: #0B0B0B;
+      box-shadow: 0 0 20px rgba(214,175,102,0.4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hello, Velvet.</h1>
+  <h2>The Standard of Excellence</h2>
+  <p>
+    Welcome to <strong>The Velvet Standard</strong> — where customer experience meets cultural luxury.  
+    We elevate brands, train golden agents, and build service ecosystems that redefine excellence.  
+  </p>
+  <a href="mailto:info@thevelvetstandard.co">Get in Touch</a>
+
+</body>
+</html>
